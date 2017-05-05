@@ -1,4 +1,4 @@
-# webpack2
+# koc-todo
 
 ### construction
 ```
@@ -7,8 +7,8 @@
 │   ├── css
 │   │   ├── config.styl
 │   │   ├── images
-│   │   │   └── items
-│   │   │       └── placeholder-weapon.svg
+│   │   │   └── store images here
+│   │   │  
 │   │   └── lib
 │   │       ├── defaults.styl
 │   │       └── styles.styl
@@ -23,9 +23,9 @@
 │       ├── lib
 │       │   └── jquery.js
 │       └── views
-│           ├── call_partial.hbs
+│           ├── view.hbs
 │           └── partials
-│               └── item.hbs
+│               └── store partials here
 ├── package.json
 ├── postcss.config.js
 ├── release
