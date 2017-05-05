@@ -1,5 +1,5 @@
 {
-  "name": "to_do_list",
+  "name": "koc-todo",
   "version": "0.0.0",
   "description": "simple to-do list",
   "main": "main.js",
