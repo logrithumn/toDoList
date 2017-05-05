@@ -1,0 +1,54 @@
+{
+  "name": "to_do_list",
+  "version": "0.0.0",
+  "description": "simple to-do list",
+  "main": "main.js",
+  "scripts": {
+    "watch": "NODE_ENV=development& webpack --watch",
+    "build": "NODE_ENV=production& webpack",
+    "dev": "./node_modules/.bin/nodemon ./server/server.js",
+    "start" : "./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.10.2",
+    "body-parser": "1.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "postcss-loader": "^1.3.3",
+    "style-loader": "^0.16.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logrithumn/toDoList.git"
+  },
+  "keywords": [
+    "to-do",
+    "list",
+    "npm",
+    "node",
+    "express",
+    "json"
+  ],
+  "author": "Kostadin Karadzhov <kosekdraw@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logrithumn/toDoList/issues"
+  },
+  "homepage": "https://github.com/logrithumn/toDoList#readme"
+}
